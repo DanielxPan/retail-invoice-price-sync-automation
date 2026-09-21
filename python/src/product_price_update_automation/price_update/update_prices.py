@@ -29,7 +29,7 @@ import logging
 
 from product_price_update_automation.config import PriceUpdateSettings
 
-HIGH_TOLERANCE_SUPPLIERS = ["ALM", "DAVD", "METNSW", "METIGA"]
+HIGH_TOLERANCE_SUPPLIERS = ["Supplier1", "Supplier2", "Supplier3", "Supplier4"]
 HIGH_TOLERANCE = 10
 DEFAULT_TOLERANCE = 0.05
 
