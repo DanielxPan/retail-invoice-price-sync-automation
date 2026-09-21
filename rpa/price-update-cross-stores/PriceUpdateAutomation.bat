@@ -1,0 +1,1 @@
+"C:\Users\danielp\AppData\Local\Programs\UiPath\Studio\UiRobot.exe" -file "C:\Users\danielp\Documents\UiPath\UploadCSV_To_InvoicePlatform\UploadCSV_To_InvoicePlatform.1.0.1.nupkg"

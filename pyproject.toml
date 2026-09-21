@@ -1,0 +1,26 @@
+[project]
+name = "product-price-update-automation"
+version = "0.1.0"
+description = "Builds per-store, per-supplier price update files for an RPA bot and keeps the supplier reference data behind it in sync"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["python/src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["python/src"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
